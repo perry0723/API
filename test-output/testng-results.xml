@@ -1,13 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3614" started-at="2022-07-01T10:41:53Z" finished-at="2022-07-01T10:41:57Z">
+  <suite name="Default suite" duration-ms="11908" started-at="2022-07-04T05:16:02Z" finished-at="2022-07-04T05:16:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3614" started-at="2022-07-01T10:41:53Z" finished-at="2022-07-01T10:41:57Z">
+    <test name="Default test" duration-ms="11908" started-at="2022-07-04T05:16:02Z" finished-at="2022-07-04T05:16:14Z">
       <class name="IBMFullStack.assignment.petsetoreUser">
-        <test-method status="PASS" signature="deleteUser()[pri:0, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="deleteUser" duration-ms="3600" started-at="2022-07-01T16:11:53Z" finished-at="2022-07-01T16:11:57Z">
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="createUser" duration-ms="2708" started-at="2022-07-04T10:46:02Z" data-provider="userDetails" finished-at="2022-07-04T10:46:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gargs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[parikshit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[garg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gargparikshit1@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tumhihoe]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="createUser" duration-ms="1355" started-at="2022-07-04T10:46:05Z" data-provider="userDetails" finished-at="2022-07-04T10:46:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[muneem]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anurag]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[garg]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anuraggarg03@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sabBtaDunTumhein]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[0987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="getUser()[pri:2, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="getUser" duration-ms="2596" started-at="2022-07-04T10:46:06Z" finished-at="2022-07-04T10:46:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method status="PASS" signature="loginUser()[pri:3, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="loginUser" duration-ms="2592" started-at="2022-07-04T10:46:09Z" finished-at="2022-07-04T10:46:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method status="PASS" signature="modifyUser()[pri:4, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="modifyUser" duration-ms="1324" started-at="2022-07-04T10:46:11Z" finished-at="2022-07-04T10:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyUser -->
+        <test-method status="PASS" signature="deleteUser()[pri:6, instance:IBMFullStack.assignment.petsetoreUser@34033bd0]" name="deleteUser" duration-ms="1319" started-at="2022-07-04T10:46:13Z" finished-at="2022-07-04T10:46:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->

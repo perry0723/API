@@ -28,7 +28,7 @@ public class petsetoreUser {
 		return userData;
 	}
 
-	@Test(enabled = false, dataProvider = "userDetails")
+	@Test(enabled = true, dataProvider = "userDetails", priority = 1)
 	public void createUser(String userName, String fName, String lName, String id, String pass, String num){
 		
 		RestAssured.baseURI = "https://petstore.swagger.io/v2";
@@ -50,7 +50,7 @@ public class petsetoreUser {
 			.log().all();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true, priority = 2)
 	public void getUser(){
 		RestAssured.baseURI = "https://petstore.swagger.io/v2/";
 		given()
@@ -66,7 +66,7 @@ public class petsetoreUser {
 			.log().all();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true, priority = 3)
 	public void loginUser(){
 		RestAssured.baseURI = "https://petstore.swagger.io/v2/";
 		given()
@@ -88,7 +88,7 @@ public class petsetoreUser {
 		.log().all();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true, priority = 4)
 	public void modifyUser(){
 		RestAssured.baseURI = "https://petstore.swagger.io/v2/";
 		JSONObject obj = new JSONObject();
@@ -106,7 +106,7 @@ public class petsetoreUser {
 			.log().all();
 	}
 	
-	@Test(enabled = true)
+	@Test(enabled = true, priority = 6)
 	public void deleteUser(){
 		RestAssured.baseURI = "https://petstore.swagger.io/v2/";
 		
